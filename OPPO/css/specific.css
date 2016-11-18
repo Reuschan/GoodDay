@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+body{margin: 0;
+	   padding: 0;
+	   margin-bottom: 60px;}
+ul{list-style: none;}	 
+
+/*导航栏*/
+.nav-bot{margin-bottom: 0;}
+
+/*轮播图*/
+.carousel-indicators li{background-color: #696969;}
+.carousel-indicators .active{border: 1px solid #008000;}
+.carousel .item img {width: 100%;}
+.replace{background-image: linear-gradient(to right,rgba(255,255,255,0) 0,rgba(255,255,255,0) 100%)!important;}
+
+.container{margin-top: 60px;}
+
+/*欢迎来到OPPO*/       
+h2{font-family: "微软雅黑";
+   font-weight: bold;
+   font-style: italic;
+   color: #ffc0cb;
+   text-align: center;}      
+.row-one .col-md-4 img{width: 100%;
+	                     padding: 10px;
+	                     margin-top: 10px;
+	                     transition: all 0.8s ease 0s;
+                       -ms-transition: all 0.8s ease 0s; /* IE 9 */
+                       -moz-transition: all 0.8s ease 0s; /* Firefox */
+                       -webkit-transition: all 0.8s ease 0s;/* Safari 和 Chrome */
+                       -o-transition: all 0.8s ease 0s; /* Opera */}
+	                   
+.row-one .col-md-4 img:hover{
+	                     transform: scale(1.05);       
+	                     -ms-transform: scale(1.05); /* IE 9 */
+                       -moz-transform: scale(1.05); /* Firefox */
+                       -webkit-transform: scale(1.05);/* Safari 和 Chrome */
+                       -o-transform: scale(1.05); /* Opera */}
+
+/*产品介绍*/
+.production{margin-top: 140px;}
+.row-two{padding: 30px 0;}
+
+.row-two .col-md-4 img{display: block;
+                       margin: 0 auto;
+                       transition: all 0.8s ease 0s;
+                       -ms-transition: all 0.8s ease 0s; /* IE 9 */
+                       -moz-transition: all 0.8s ease 0s; /* Firefox */
+                       -webkit-transition: all 0.8s ease 0s;/* Safari 和 Chrome */
+                       -o-transition: all 0.8s ease 0s; /* Opera */}
+.row-two .col-md-6 img{display: block;
+                       margin: 0 auto;
+                       transition: all 0.8s ease 0s;
+                       -ms-transition: all 0.8s ease 0s; /* IE 9 */
+                       -moz-transition: all 0.8s ease 0s; /* Firefox */
+                       -webkit-transition: all 0.8s ease 0s;/* Safari 和 Chrome */
+                       -o-transition: all 0.8s ease 0s; /* Opera */}                         
+.row-two .col-md-4 img:hover, .row-two .col-md-6 img:hover{
+	                     transform: rotate(10deg);
+	                     -ms-transform: rotate(10deg); 	/* IE 9 */
+                       -moz-transform: rotate(10deg); /* Firefox */
+                       -webkit-transform: rotate(10deg);/* Safari 和 Chrome */
+                       -o-transform: rotate(10deg); /* Opera */ }                       
+.row-two .col-md-4 p, .row-two .col-md-6 p{
+	                   font-size: 16px;
+                     font-family: "微软雅黑";
+                     color: #808080;
+                     text-align: center;
+                     padding: 10px;}
+                     
+.row-two .col-md-4 p span, .row-two .col-md-6 p span{
+	                      font-size: 20px;
+                        color: #000;}
+
+                                               
+
+/*产品特色*/
+.feature{margin-top: 100px;}
+
+.row-three .col-md-6 img{width: 100%;
+	                       margin-top: 20px;}
+
+.row-three .col-md-6 .pic{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: visible;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;}
+   
+.row-three .col-md-6 .pic:before{
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2E2F2F;
+  opacity: 0.5;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;}
+
+.row-three .col-md-6 .pic:hover:before, .row-three .col-md-6 .pic:focus:before, .row-three .col-md-6 .pic:active:before{
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);}
+
+@media only screen and (max-width: 1000px){
+  .row-three .col-md-6 .pic{display:block;
+                            margin:0 auto;}                                                  
+}
+  
+
+/*尾部信息*/
+.footer{margin-top: 140px;}
+
+.row-four .col-md-10 h4{font-size: 16px;
+	                      font-family: "微软雅黑";
+                        font-weight: bold;}
+.row-four .col-md-10 ul li{padding: 8px;
+                           margin-left: -46px;}                        
+.row-four .col-md-10 a{color:#808080;}
+.row-four .col-md-10 a:hover{color:#000;}
+.row-four .col-md-2 img{margin: 0 -15px;}
+	                    
+.row-four .col-md-2 p{font-size: 14px;
+                      font-weight: bold;
+                      margin-top: 10px;}	                   
+
+
+
