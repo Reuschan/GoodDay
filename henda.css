@@ -1,0 +1,181 @@
+body{margin:0;
+     padding:0;
+     overflow:scroll;
+     background:url(images/bg.jpg) no-repeat center top;
+     background-attachment:fixed;}
+ul,ol,li{list-style:none;}      	
+.top{width:1050px;
+     height:160px;
+     background:#800;
+     border-radius:26px;
+     -moz-border-radius:26px;/*Firefox*/
+     -webkit-border-radius:26px;/*Safari和Chrome*/
+     -o-border-radius:26px;/*Opera*/
+     margin:0 auto;
+     overflow:hidden;
+     position:relative;}
+.top_left{width:300px;
+          height:90px;}
+.top_right{width:500px;
+           height:90px;
+           position:absolute;
+           top:0; 
+           right:0;}                    
+.top_right img{padding-top:20px;
+	             padding-left:42px;}
+.top_menu{width:1050px;
+          height:60px;
+          position:absolute;
+          left:0;
+          bottom:0;}                          
+.top_menu ul li{font-size:16px;
+                font-weight:bold;
+                text-align:center;               
+                display:inline;
+                padding:10px;
+                margin-left:18px;}
+.top_menu ul li{margin-left:22px\0;}/*兼容IE浏览器*/
+@-moz-document url-prefix(){.top_menu ul li{margin-left:23px;}}/*兼容Firefox浏览器*/                      
+.top_menu ul li a{text-decoration:none;
+	              color:#fff;}
+.top_menu ul li a:hover{background:#f00;
+	                    padding:5px;
+                        border:1px solid #f00;
+                        border-radius:30px;
+                        -moz-border-radius:30px;/*Firefox*/
+                        -webkit-border-radius:30px;/*Safari和Chrome*/
+                        -o-border-radius:30px;/*Opera*/}
+.nav{width:1000px;
+     height:260px;
+     margin:0 auto;
+     margin-top:20px;
+     position:relative;}
+.nav_left table{width:300px;
+                height:260px;
+                text-align:center;
+                font-size:12px;
+                background-color:#000;
+                opacity:0.75;
+                color:#fff;}
+.nav_left table tr.d1{font-size:16px;
+	                  color:#f00;}                
+.nav_left table tr.d2{font-size:14px;
+	                  color:#ffff00;}
+.nav_center {width:600px;
+             height:260px;
+             position:absolute;
+             top:0;
+             left:305px;
+             overflow:hidden;}                                      
+.nav_center ul{margin-top:0px;
+	           padding:0px;}            
+.nav_center ul li img{width:600px;
+	                  height:260px;
+	                  cursor:pointer;}                                                         
+.nav_center ol{position:absolute;
+               right:200px;
+               bottom:2px;}
+.nav_center ol li{height:20px; width:20px;
+                  background:#ccc;
+                  border:1px solid #666;
+                  border-radius:10px;
+                  -moz-border-radius:10px;/*Firefox*/
+                  -webkit-border-radius:10px;/*Safari和Chrome*/
+                  -o-border-radius:10px;/*Opera*/
+                  color:#000;
+                  display:inline-block;
+                  line-height:center;
+                  text-align:center;
+                  cursor:pointer;}
+.nav_center ol .on{background:#e97305;
+                   color:#fff;}	                 
+.nav_right{width:90px;
+           height:260px;
+           position:absolute;
+           top:0;
+           right:0;
+           background-color:#000;
+           opacity:0.75;
+           font-size:12px;
+           font-weight:bold;
+           color:#fff;}                      
+.nav_right h3{text-align:center;
+	          margin-bottom:30px;
+              color:#f00;}
+.nav_right p{text-align:center;
+             text-shadow:1px 5px 5px #ffb6c1;}                
+.nav_right p span{font-size:50px;	              
+                  color:#f00;}
+.nav_right p b,strong{color:#ffff00;}
+.content{width:950px;
+         height:720px;
+         margin:20px auto;
+         border:5px solid #800;
+         background:#ffe4c4;}
+.content h2{color:#f00;
+	        margin-top:0;}        
+.content ul li{display:inline-block;}         
+.team_tab{width:950px;
+          height:40px;}                   
+.team_tab li{width:175px;
+	         height:38px;
+	         background:#800;
+	         float:left;
+	         font-size:16px;
+             font-weight:bold;
+             text-align:center;
+             line-height:38px;}                  
+.team_tab li.high{height:36px;
+	              background:#ffe4c4;
+	              border-bottom:2px solid #f00;}                                                 
+.team_tab ul li a{color:#808080;
+                  text-decoration:none;}                  
+.team_tab ul li a:hover{color:#f00;}                                                                                     
+.team_pic{width:950px;
+          height:630px;}
+.team_pic ul li h3{width:140px;
+	               height:170px;
+	               display:inline-block;
+	               font-size:12px;
+	               padding:0 20px;
+	               margin-left:24px;}                  
+.team_pic ul li h3 img{width:140px;
+	                   height:160px;
+                       border:2px solid #800;
+                       cursor:pointer;}
+.content1{width:950px;
+          height:1060px;
+          margin:20px auto;
+          border:5px solid #800;
+          background:#ffe4c4;}
+.content1 h2{color:#f00;
+             margin-top:0;}
+.content1 img{width:900px;
+	          height:500px;
+	          margin:0 auto;
+	          display:block;}
+.content1_text{width:900px;
+               height:500px;
+               margin:10px auto;}             
+.content1 p{font-size:12px;
+	          font-family:'微软雅黑';
+	          text-align:justify;
+	          text-justify:inter-ideograph;/*兼容IE浏览器*/
+	          line-height:16px;
+            text-indent:2em;}
+                     
+.footer{width:950px;
+        height:260px;
+        margin:20px auto;}        
+.footer ul li{font-size:12px;
+	          font-family:'微软雅黑';
+	          text-align:center;
+	          margin-left:-42px;
+	          padding:5px;}
+.footer ul li a img{width:50px;
+	                height:12px;}            
+.footer ul li a{text-decoration:none;
+	            color:#fff;}
+.footer ul li a:hover{color:#f00;}
+                                              
+                    
