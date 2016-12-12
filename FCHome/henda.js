@@ -1,4 +1,4 @@
-window.onload=function(){
+﻿window.onload=function(){
     /*轮播图*/
     var wrap=document.getElementById('nav_center'),
         pic=document.getElementById('pic'),
@@ -18,7 +18,7 @@ window.onload=function(){
       auto();
       //定义图片切换函数
       function change(curIndex){         
-        pic.style.marginTop=-262*curIndex+'px';
+        pic.style.marginTop=-264*curIndex+'px';
         for(var n=0;n<list.length;n++){
             list[n].className='';
         }
