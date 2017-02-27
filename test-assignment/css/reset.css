@@ -52,8 +52,8 @@ ul, li{list-style: none;}
 }
 .pic1 img, .pic2 img{width:100%;}
 .pic1 h3, .pic2 h3{width:96%;
-	               margin:0 auto;
-	               font-size: 0.876rem;
+	           margin:0 auto;
+	           font-size: 0.876rem;
                    color: #000;
                    font-family: '微软雅黑'
 }
@@ -67,7 +67,7 @@ ul, li{list-style: none;}
        border-top: 0.117rem solid #d3d3d3;
 }
 .menu1 ul li{float: left;
-             padding: 0.365rem 1rem;
+             padding: 0.365rem 0.8rem;
 }
 
 /*blog-share*/
