@@ -1,4 +1,4 @@
-*{margin: 0;
+﻿*{margin: 0;
   padding: 0;
 }
 @media screen and (min-width: 320px) {
@@ -67,7 +67,7 @@ ul, li{list-style: none;}
        border-top: 0.117rem solid #d3d3d3;
 }
 .menu1 ul li{float: left;
-             padding: 0.365rem 1.36rem;
+             padding: 0.365rem 1rem;
 }
 
 /*blog-share*/
