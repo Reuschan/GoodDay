@@ -1,0 +1,248 @@
+﻿*{margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 320px) {
+    html {font-size: 14px;}
+    .menu1 ul li{float: left;
+                 padding: 1% 3.2%;}
+    .head1 img{margin-top: 0.2%;}
+}
+ 
+@media screen and (min-width: 360px) {
+    html {font-size: 16px;}
+    .menu1 ul li{float: left;
+                 padding: 1% 4.2%;}
+    .head1 img{margin-top: 0.4%;}             
+}
+ 
+@media screen and (min-width: 400px) {
+    html {font-size: 18px;}
+    .menu1 ul li{float: left;
+                 padding: 1% 4.8%;}
+    .head1 img{margin-top: 0.8%;}
+}             
+}
+ 
+@media screen and (min-width: 440px) {
+    html {font-size: 20px;}
+    .menu1 ul li{float: left;
+                 padding: 1% 5.2%;}
+}
+ 
+@media screen and (min-width: 480px) {
+    html {font-size: 22px;}
+    .menu1 ul li{float: left;
+                 padding: 1% 5.6%;}
+    .head1 img{margin-top: 1.5%;}             
+}
+ 
+@media screen and (min-width: 640px) {
+    html {font-size: 28px;}
+    .menu1 ul li{float: left;
+                 padding: 1% 6.6%;}
+    .head1 img{margin-top: 2.5%;}             
+}
+
+
+ul, li{list-style: none;}
+
+/*blog*/
+.container1{width:23.4rem;
+            margin: 0 auto;
+}
+.head1{width: 100%;
+       height: 2.19rem;
+       background:#ffa500;
+}
+.head1 img{margin-left: 0.8rem;
+           float: left;
+}
+.head1 h2{width:100%;
+          font-size: 0.876rem;
+          color: #fff;
+          margin-left: 45%;
+          line-height: 2.19rem;        
+ }
+.pic1{width:90%;
+      margin: 0.73rem auto;
+      border: 0.073rem solid #d3d3d3;
+      border-radius: 0.292rem;
+}
+.pic1-x{width:90%;
+      margin: 0rem auto;
+      
+}
+.pic1 img, .pic2 img, .pic1-x img{width:100%;}
+.pic1 h3, .pic2 h3{width:96%;
+	                 margin:0 auto;
+	                 font-size: 0.876rem;
+                   color: #000;
+                   font-family: '微软雅黑'
+}
+.pic1 p, .pic2 p{width:96%;
+                 margin: 0 auto;
+                 font-size: 0.584rem;
+                 color: #d3d3d3;
+                 font-family: '微软雅黑'
+}
+.menu1{width: 100%;margin-top: 0;
+       border-top: 0.117rem solid #d3d3d3;
+}
+
+
+/*blog-share*/
+.head1 span{float: right;
+            margin-top: -1.46rem;
+            margin-right: 1.022rem;
+            font-size: 0.73rem;
+            color: #fff;
+            font-family: '微软雅黑';
+}
+.pic2{width: 90%;
+      margin: 1.46rem auto;   
+}
+.pic2 .pic2-left{width:50%;}
+.pic2 .pic2-right{width:49.6%;
+	                float: right;
+	                margin-top: -16.2rem;
+}
+.container1 .btn1{width: 90%;
+                  height: 2.19rem;
+                  margin: 0 auto;
+                  text-align: center;
+                  border: 0.073rem solid #8b008b;
+                  border-radius: 0.146rem;
+}	              
+.container1 .btn1 a{line-height: 2.19rem;
+                    font-size: 0.876rem;
+                    color:#8b008b;
+                    font-weight: bold;
+                    font-family: '微软雅黑';
+}
+.pic3{width:90%;
+	    height:7.3rem;
+      margin: 1.46rem auto; 
+}
+.pic3 h2{font-family: '微软雅黑';
+         color:#000;
+         font-size: 0.73rem; 
+         margin-bottom: 0.584rem; 
+}
+.pic3 .pic3-left{width:50%;
+                 float: left;
+}
+.pic3 .pic3-right{width:48.6%;
+                  float: right;
+}
+.pic3 .pic3-left img{width:100%;}
+.pic3 .pic3-right h3 ,p{font-family: '微软雅黑';
+                        color:#000;
+                        font-size: 0.365rem;
+}
+.pic3 .pic3-right p{font-size: 0.365rem;}
+
+/*about-us*/
+.pic4{width:100%;}
+.pic4 .pic4-left{width:49%;
+	               height:15.184rem; 
+	               margin-top: 0.146rem;
+	               overflow: hidden;
+                 float:left;
+}
+.pic4 .pic4-right{width:49%; 
+	                margin-top: 0.146rem;
+	                height:15.184rem;
+	                overflow: hidden;
+                  float:right;
+}
+.pic4 .pic4-left img, .pic4 .pic4-right img, .pic4 img{width:100%;}
+
+/*about-us-intro*/
+.pic5, .pic5 img{width: 100%;}
+.pic5 .txt5{width: 96%;
+            margin: 1rem auto;
+}
+.pic5 .txt5 h3{font-size: 0.66rem;
+               font-family: '微软雅黑';
+               color: #000;
+}
+.pic5 .txt5 p{font-size: 0.4rem;
+              font-family: "微软雅黑";
+              color: #000;
+              margin: 0.6rem 0 1.4rem 0;
+              line-height: 1rem;             
+}
+.pic5-footer{width:100%;
+             margin: 1rem auto;
+             text-align: center;
+}
+.pic5-footer .pic5-txt5{margin-bottom: 0.1rem;}
+
+.pic5-footer .pic5-txt5 h3{font-size: 0.6rem;
+                           color: #800080;
+                           font-family: '微软雅黑';
+                           margin-bottom: 0rem;
+}
+.pic5-footer .pic5-txt5 p{font-size: 0.4rem;
+                          color: #d3d3d3;
+                          font-family: '微软雅黑';
+}
+.pic5-footer .pic5-link a{font-size: 0.1rem;
+                          color: #87ceeb;
+                          font-family: '微软雅黑';
+                          padding: 1.2rem;
+}
+.pic5-footer .pic5-pic p{color: #d3d3d3;
+                         margin-top: 0.3rem;
+}
+.pic5-footer .pic5-pic img{width: 40%;
+                          margin: 0.4rem auto;
+}
+
+/*about-us-intro-TC*/
+.pic6{width: 96%;
+      height: 34rem;
+      margin: 1rem auto;
+}
+.pic6 p{line-height: 1.2rem;}
+
+/*about-us-kiosk info*/
+.pic7, .pic7 img{width: 100%;}
+
+/*about-us-kiosk info-bobbybox*/
+.pic8, .pic8 img{width: 100%;}
+.pic8 .pic8-txt8{width: 96%;
+                 height: 16rem;
+                 margin: 0.8rem auto;
+}
+
+.pic8 .pic8-txt8 h2{font-size: 0.6rem;
+                    font-family: '微软雅黑';
+}
+.pic8 .pic8-txt8 p{font-size: 0.4rem;
+                   font-family: '微软雅黑';
+                   color: #d3d3d3;
+                   line-height: 1rem;
+                   margin-top: 0.2rem;
+}
+
+/*about-us-chef bios*/
+.pic9{margin-bottom: 0.2rem;}
+.pic9, .pic9 img{width: 100%;}
+.pic9 .pic9-left{width:29%;
+                 float: left;                 
+}
+.pic9 .pic9-right{width:68.5%;
+                 float: right;                 
+}
+
+/*about-us-chef bios-kim*/
+.pic10, .pic10 img{width: 100%;}
+.pic10 .pic10-txt10{width: 96%;
+                    height: 15rem;
+                    margin: 1rem auto;
+}
+.pic10 .pic10-txt10 h3 ,p{font-family: '微软雅黑';}
+.pic10 .pic10-txt10 p{color: #000;
+                      line-height: 1rem;
+}
