@@ -66,7 +66,7 @@ html, body{overflow: hidden;
           margin-left: 45%;
           line-height: 2.19rem;        
  }
-.pic1{width:90%;
+.pic1{width:93%;
       margin: 0.73rem auto;
       border: 0.073rem solid #d3d3d3;
       border-radius: 0.292rem;
@@ -101,7 +101,7 @@ html, body{overflow: hidden;
             color: #fff;
             font-family: '微软雅黑';
 }
-.pic2{width: 90%;
+.pic2{width: 93%;
       margin: 1.46rem auto;   
 }
 .pic2 .pic2-left{width:50%;}
@@ -122,8 +122,8 @@ html, body{overflow: hidden;
                     font-weight: bold;
                     font-family: '微软雅黑';
 }
-.pic3{width:90%;
-	    height:7.3rem;
+.pic3{width:93%;
+      height:8.3rem;
       margin: 1.46rem auto; 
 }
 .pic3 h2{font-family: '微软雅黑';
