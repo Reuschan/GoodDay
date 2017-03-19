@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎来到仙侠世界</title>
+    <script type="text/javascript">
+        // 判断是否为移动端
+        if (/AppleWebKit.*Mobile/i.test(navigator.userAgent) ||
+            /Android|iPhone|Windows Phone|webOS|iPod|BlackBerry/i.test(navigator.userAgent)) {
+            window.location.href = "m/index.html";
+        }
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="container">
+            <div class="column page1 on">
+                <img class="bg1" src="images/bg1.jpg">
+                <div class="mouse-tips down"></div>
+                <div class="barrageBox"></div>
+                <div class="barTxt">
+                    <div class="tabTxt">开启弹幕</div>
+                    <div class="sendTxt">发送弹幕</div>
+                </div>
+                <!--弹幕按钮 z-index得在弹幕之上-->
+                <div class="barBtns">
+                    <a class="startBar" href="javascript:;"></a>
+                    <a class="sendBar" href="javascript:;"></a>
+                </div>
+                <div class="bar-send">
+                    <div class="input-box">
+                        <input class='input-value' type="text" value="屠龙宝刀 点击就送" />
+                        <a class="inputBar" href="javascript:;">发送</a>
+                    </div>
+                </div>
+            </div>
+            <div class="column page2">
+                <img class="tit t2" src="images/tit2.png" alt="">
+                <img class="peo r2" src="images/r2_peo.png" alt="">
+                <div class="feature f2">
+                    <ul>
+                        <li><img src="images/banner1.png" alt="" usemap="#map1" /></li>
+                        <li><img src="images/banner2.png" alt="" usemap="#map2" /></li>
+                        <li><img src="images/banner3.png" alt="" usemap="#map3" /></li>
+                    </ul>
+                    <!--图片预览map-->
+                    <map name="map1" id="map1">
+                        <area shape="poly" coords="1,255,73,378,216,381,287,256,215,132,73,133" href="javascript:;" alt="" data-url="images/f2-picture/m0.jpg" rel="0" />
+                        <area shape="poly" coords="230,125,301,6,449,9,515,125,444,247,303,249" href="javascript:;" alt="" data-url="images/f2-picture/m1.jpg" rel="1" />
+                        <area shape="poly" coords="303,266,445,267,514,388,445,511,302,511,231,389" href="javascript:;" alt="" data-url="images/f2-picture/m2.jpg" rel="2" />
+                    </map>
+                    <map name="map2" id="map2">
+                        <area shape="poly" coords="4,257,74,132,215,133,286,254,215,380,72,381" href="javascript:;" alt="" data-url="images/f2-picture/m3.jpg" rel="3" />
+                        <area shape="poly" coords="230,124,298,7,448,7,514,124,447,248,303,249" href="javascript:;" alt="" data-url="images/f2-picture/m4.jpg" rel="4" />
+                        <area shape="poly" coords="232,391,304,267,443,266,514,389,446,511,303,511" href="javascript:;" alt="" data-url="images/f2-picture/m5.jpg" rel="5" />
+                    </map>
+                    <map name="map3" id="map3">
+                        <area shape="poly" coords="4,256,74,134,215,134,286,255,217,379,72,380" href="javascript:;" alt="" data-url="images/f2-picture/m6.jpg" rel="6" />
+                        <area shape="poly" coords="232,125,298,7,447,7,514,124,447,248,303,249" href="javascript:;" alt="" data-url="images/f2-picture/m7.jpg" rel="7" />
+                        <area shape="poly" coords="231,390,303,267,442,265,515,390,445,510,304,512" href="javascript:;" alt="" data-url="images/f2-picture/m8.jpg" rel="8" />
+                    </map>
+                    <!--map end-->
+                    <!--切换按钮-->
+                    <div class="tab-btns">
+                        <a href="javascript:;" class="tab-btn1"></a>
+                        <a href="javascript:;" class="tab-btn2"></a>
+                    </div>
+                </div>
+                <!--图片预览弹层-->
+                <div class="popup-bg">
+                    <div class="popup-content">
+                        <img src="images/f2-picture/loading.gif" alt="" />
+                        <a href="javascript:;" class="picture-tab left-tab"></a>
+                        <a href="javascript:;" class="picture-tab right-tab"></a>
+                        <a href="javascript:;" class="close-btn"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="column page3">
+                <img class="tit t3" src="images/tit3.png" alt="">
+                <img class="peo r3" src="images/r3_peo.png" alt="">
+            </div>
+            <div class="column page4">
+                <img class="tit t4" src="images/tit4.png" alt="">
+                <img class="peo r4-1" src="images/r4_peo1.png" alt="">
+                <img class="peo r4-2" src="images/r4_peo2.png" alt="">
+                <div class="feature f4">
+                    <a href="javascript:;" class="f4-btns f4-btn1"></a>
+                    <a href="javascript:;" class="f4-btns f4-btn2"></a>
+                    <a href="javascript:;" class="f4-btns f4-btn3"></a>
+                </div>
+                <!--第四屏视频弹层-->
+                <div class="popup-bg">
+                    <div class="popup-content">
+                        <video width="800" height="450" controls></video>
+                        <a href="javascript:;" class="close-btn"></a>
+                    </div>
+                </div>
+                <!--视频弹层 end-->
+            </div>
+            <div class="column page5">
+                <img class="tit t5" src="images/tit5.png" alt="">
+                <img class="peo r5" src="images/r5_peo.png" alt="">
+                <img class="feature f5" src="images/f5_feature.png" alt="">
+                <div class="mouse-tips up"></div>
+                <div class="footer">
+                    <div class="foot-wrap">
+                        <p class="health-game">健康游戏公告：抵制不良游戏，拒绝盗版游戏，注意自我保护，谨防上当受骗，适度游戏益脑，沉迷游戏伤身，合理安排时间，享受健康生活。</p>
+                        <div class="copyright">
+                            <a href="javascript:;" target="_blank">关于巨人</a>|
+                            <a href="javascript:;" target="_blank">关于巨人</a>|
+                            <a href="javascript:;" target="_blank">关于巨人</a>|
+                            <a href="javascript:;" target="_blank">关于巨人</a>
+                            <p>巨人网络版权所有 COPYRIGHT © 2014 GIANT MOBILE. ALL RIGHTS RESERVED</p>
+                            <p>[2011]0494-054 许可证编号：沪B2-20050107 新出网证：(沪)字008号 文网游备字〔 2016 〕Ｃ -RPG 0521号</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--wrap end-->
+    <!--右侧导航按钮-->
+    <ul class="nav-right">
+        <a href="javascript:;">
+            <li class="item i1 on"></li>
+        </a>
+        <a href="javascript:;">
+            <li class="item i2"></li>
+        </a>
+        <a href="javascript:;">
+            <li class="item i3"></li>
+        </a>
+        <a href="javascript:;">
+            <li class="item i4"></li>
+        </a>
+        <a href="javascript:;">
+            <li class="item i5"></li>
+        </a>
+        <a href="javascript:;">
+            <li class="item i6"></li>
+        </a>
+    </ul>
+    <!--导航按钮 end-->
+    <!--左侧新闻弹出层-->
+    <div class="news-left">
+        <a href="javascript:;" class="news-btn"></a>
+        <div class="news-box">
+            <ul class="news-list">
+                <li class="news-li"><a href="javascript:;" target="_blank" title="招募测试等级大比拼！京东卡大放送~">招募测试等级大比拼！京东卡大放送~</a></li>
+                <li class="news-li"><a href="javascript:;" target="_blank" title="招募测试等级大比拼！京东卡大放送~">招募测试等级大比拼！京东卡大放送~</a></li>
+                <li class="news-li"><a href="javascript:;" target="_blank" title="招募测试等级大比拼！京东卡大放送~">招募测试等级大比拼！京东卡大放送~</a></li>
+                <li class="news-li"><a href="javascript:;" target="_blank" title="招募测试等级大比拼！京东卡大放送~">招募测试等级大比拼！京东卡大放送~</a></li>
+                <li class="news-li"><a href="javascript:;" target="_blank" title="招募测试等级大比拼！京东卡大放送~">招募测试等级大比拼！京东卡大放送~</a></li>
+                <li class="news-li"><a href="javascript:;" target="_blank" title="招募测试等级大比拼！京东卡大放送~">招募测试等级大比拼！京东卡大放送~</a></li>
+                <li class="news-li"><a href="javascript:;" target="_blank" title="招募测试等级大比拼！京东卡大放送~">招募测试等级大比拼！京东卡大放送~</a></li>
+                <li class="news-li"><a href="javascript:;" target="_blank" title="招募测试等级大比拼！京东卡大放送~">招募测试等级大比拼！京东卡大放送~</a></li>
+            </ul>
+            <div class="news-qrcode">
+                <img src="images/code.png" alt="">
+                <p>扫一扫关注官方微信</p>
+            </div>
+            <a class="news-cdk" href="javascript:;" target="abcd">抢激活码</a>
+        </div>
+    </div>
+    <!--新闻层 end-->
+    <!--随鼠标移动的花瓣-->
+    <div class="petals">
+        <div class="p1"></div>
+        <div class="p2"></div>
+        <div class="p3"></div>
+        <div class="p4"></div>
+        <div class="p5"></div>
+    </div>
+    <!--花瓣 end-->
+    <script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
