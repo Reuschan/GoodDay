@@ -322,23 +322,6 @@ export default {
 </script>
 
 <style>
-html, body {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-@media only screen and (min-width: 1024px) {
-  html {
-    background-color: black;
-  }
-  body {
-    width: 40%;
-    margin: auto;
-  }
-}
 
 #app {
   width: 100%;
