@@ -1,46 +1,45 @@
-﻿*{margin: 0;
+*{margin: 0;
   padding: 0;
 }
 @media screen and (min-width: 320px) {
-    html {font-size: 14px;}
+    
     .menu1 ul li{float: left;
-                 padding: 1% 3.2%;}
-    .head1 img{margin-top: 0.2%;}
+                 padding: 1% 3.4%;}
 }
  
 @media screen and (min-width: 360px) {
-    html {font-size: 16px;}
+   
     .menu1 ul li{float: left;
-                 padding: 1% 4.2%;}
-    .head1 img{margin-top: 0.4%;}             
+                 padding: 1% 4.4%;}
+                
 }
  
 @media screen and (min-width: 400px) {
-    html {font-size: 18px;}
+    
     .menu1 ul li{float: left;
-                 padding: 1% 4.8%;}
-    .head1 img{margin-top: 0.8%;}
-}             
+                 padding: 1% 4.9%;}
+    
+             
 }
  
 @media screen and (min-width: 440px) {
-    html {font-size: 20px;}
+    
     .menu1 ul li{float: left;
-                 padding: 1% 5.2%;}
+                 padding: 1% 5.4%;}
 }
  
 @media screen and (min-width: 480px) {
-    html {font-size: 22px;}
+   
     .menu1 ul li{float: left;
-                 padding: 1% 5.6%;}
-    .head1 img{margin-top: 1.5%;}             
+                 padding: 1% 5.8%;}
+                
 }
  
 @media screen and (min-width: 640px) {
-    html {font-size: 28px;}
+    
     .menu1 ul li{float: left;
-                 padding: 1% 6.6%;}
-    .head1 img{margin-top: 2.5%;}             
+                 padding: 1% 6.1%;}
+                
 }
 
 
@@ -48,88 +47,87 @@ ul, li{list-style: none;}
 html, body{overflow: hidden; 
            overflow-y: auto;
 }
-
 /*blog*/
-.container1{width:23.4rem;
+.container1{width: 10rem;
             margin: 0 auto;
 }
 .head1{width: 100%;
-       height: 2.19rem;
+       height: 0.95rem;
        background:#ffa500;
 }
-.head1 img{margin-left: 0.8rem;
+.head1 img{margin-left: 0.34rem;
            float: left;
+           margin-top: 1.8%;
 }
 .head1 h2{width:100%;
-          font-size: 0.876rem;
+          font-size: 0.37rem;
           color: #fff;
           margin-left: 45%;
-          line-height: 2.19rem;        
+          line-height: 0.94rem;        
  }
 .pic1{width:93%;
-      margin: 0.73rem auto;
-      border: 0.073rem solid #d3d3d3;
-      border-radius: 0.292rem;
+      margin: 0.31rem auto;
+      border: 0.03rem solid #d3d3d3;
+      border-radius: 0.125rem;
 }
-.pic1-x{width:90%;
-      margin: 0rem auto;
-      
-}
-.pic1 img, .pic2 img, .pic1-x img{width:100%;}
+.pic1 img, .pic2 img{width:100%;}
 .pic1 h3, .pic2 h3{width:96%;
 	                 margin:0 auto;
-	                 font-size: 0.876rem;
+	                 font-size: 0.374rem;
                    color: #000;
                    font-family: '微软雅黑'
 }
 .pic1 p, .pic2 p{width:96%;
                  margin: 0 auto;
-                 font-size: 0.584rem;
+                 font-size: 0.249rem;
                  color: #d3d3d3;
                  font-family: '微软雅黑'
 }
-.menu1{width: 100%;margin-top: 0;
-       border-top: 0.117rem solid #d3d3d3;
+.menu1{width: 100%;
+       margin-top: 0;
+       border-top: 0.05rem solid #d3d3d3;
 }
+
+    
 
 
 /*blog-share*/
 .head1 span{float: right;
-            margin-top: -1.46rem;
-            margin-right: 1.022rem;
-            font-size: 0.73rem;
+            margin-top: -0.62rem;
+            margin-right: 0.436rem;
+            font-size: 0.312rem;
             color: #fff;
             font-family: '微软雅黑';
 }
 .pic2{width: 93%;
-      margin: 1.46rem auto;   
+      margin: 0.62rem auto;   
 }
 .pic2 .pic2-left{width:50%;}
 .pic2 .pic2-right{width:49.6%;
 	                float: right;
-	                margin-top: -16.2rem;
+	                margin-top: -6.9rem;
 }
 .container1 .btn1{width: 90%;
-                  height: 2.19rem;
+                  height: 0.94rem;
                   margin: 0 auto;
                   text-align: center;
-                  border: 0.073rem solid #8b008b;
-                  border-radius: 0.146rem;
+                  border: 0.031rem solid #8b008b;
+                  border-radius: 0.062rem;
 }	              
-.container1 .btn1 a{line-height: 2.19rem;
-                    font-size: 0.876rem;
+.container1 .btn1 a{line-height: 0.94rem;
+                    font-size: 0.374rem;
                     color:#8b008b;
                     font-weight: bold;
                     font-family: '微软雅黑';
 }
 .pic3{width:93%;
-      height:8.6rem;
-      margin: 1.46rem auto; 
+	    height:3.55rem;
+      margin: 0.62rem auto; 
 }
 .pic3 h2{font-family: '微软雅黑';
          color:#000;
-         font-size: 0.73rem; 
-         margin-bottom: 0.584rem; 
+         font-size: 0.31rem; 
+         margin-bottom: 0.249rem; 
 }
 .pic3 .pic3-left{width:50%;
                  float: left;
@@ -140,21 +138,21 @@ html, body{overflow: hidden;
 .pic3 .pic3-left img{width:100%;}
 .pic3 .pic3-right h3 ,p{font-family: '微软雅黑';
                         color:#000;
-                        font-size: 0.365rem;
+                        font-size: 0.156rem;
 }
-.pic3 .pic3-right p{font-size: 0.365rem;}
+.pic3 .pic3-right p{font-size: 0.156rem;}
 
 /*about-us*/
 .pic4{width:100%;}
 .pic4 .pic4-left{width:49%;
-	               height:15.184rem; 
-	               margin-top: 0.146rem;
+	               height:6.49rem; 
+	               margin-top: 0.062rem;
 	               overflow: hidden;
                  float:left;
 }
 .pic4 .pic4-right{width:49%; 
-	                margin-top: 0.146rem;
-	                height:15.184rem;
+	                margin-top: 0.062rem;
+	                height:6.49rem;
 	                overflow: hidden;
                   float:right;
 }
@@ -165,49 +163,49 @@ html, body{overflow: hidden;
 .pic5 .txt5{width: 96%;
             margin: 1rem auto;
 }
-.pic5 .txt5 h3{font-size: 0.66rem;
+.pic5 .txt5 h3{font-size: 0.28rem;
                font-family: '微软雅黑';
                color: #000;
 }
-.pic5 .txt5 p{font-size: 0.4rem;
+.pic5 .txt5 p{font-size: 0.17rem;
               font-family: "微软雅黑";
               color: #000;
-              margin: 0.6rem 0 1.4rem 0;
-              line-height: 1rem;             
+              margin: 0.26rem 0 0.6rem 0;
+              line-height: 0.427rem;             
 }
 .pic5-footer{width:100%;
-             margin: 1rem auto;
+             margin: 0.427rem auto;
              text-align: center;
 }
-.pic5-footer .pic5-txt5{margin-bottom: 0.1rem;}
+.pic5-footer .pic5-txt5{margin-bottom: 0.0427rem;}
 
-.pic5-footer .pic5-txt5 h3{font-size: 0.6rem;
+.pic5-footer .pic5-txt5 h3{font-size: 0.256rem;
                            color: #800080;
                            font-family: '微软雅黑';
                            margin-bottom: 0rem;
 }
-.pic5-footer .pic5-txt5 p{font-size: 0.4rem;
+.pic5-footer .pic5-txt5 p{font-size: 0.171rem;
                           color: #d3d3d3;
                           font-family: '微软雅黑';
 }
-.pic5-footer .pic5-link a{font-size: 0.1rem;
+.pic5-footer .pic5-link a{font-size: 0.0427rem;
                           color: #87ceeb;
                           font-family: '微软雅黑';
-                          padding: 1.2rem;
+                          padding: 0.513rem;
 }
 .pic5-footer .pic5-pic p{color: #d3d3d3;
-                         margin-top: 0.3rem;
+                         margin-top: 0.128rem;
 }
 .pic5-footer .pic5-pic img{width: 40%;
-                          margin: 0.4rem auto;
+                          margin: 0.171rem auto;
 }
 
 /*about-us-intro-TC*/
 .pic6{width: 96%;
-      height: 34rem;
-      margin: 1rem auto;
+      height: 14.53rem;
+      margin: 0.427rem auto;
 }
-.pic6 p{line-height: 1.2rem;}
+.pic6 p{line-height: 0.513rem;}
 
 /*about-us-kiosk info*/
 .pic7, .pic7 img{width: 100%;}
@@ -215,22 +213,22 @@ html, body{overflow: hidden;
 /*about-us-kiosk info-bobbybox*/
 .pic8, .pic8 img{width: 100%;}
 .pic8 .pic8-txt8{width: 96%;
-                 height: 16rem;
-                 margin: 0.8rem auto;
+                 height: 6.84rem;
+                 margin: 0.342rem auto;
 }
 
-.pic8 .pic8-txt8 h2{font-size: 0.6rem;
+.pic8 .pic8-txt8 h2{font-size: 0.256rem;
                     font-family: '微软雅黑';
 }
-.pic8 .pic8-txt8 p{font-size: 0.4rem;
+.pic8 .pic8-txt8 p{font-size: 0.171rem;
                    font-family: '微软雅黑';
                    color: #d3d3d3;
-                   line-height: 1rem;
-                   margin-top: 0.2rem;
+                   line-height: 0.427rem;
+                   margin-top: 0.085rem;
 }
 
 /*about-us-chef bios*/
-.pic9{margin-bottom: 0.2rem;}
+.pic9{margin-bottom: 0.085rem;}
 .pic9, .pic9 img{width: 100%;}
 .pic9 .pic9-left{width:29%;
                  float: left;                 
@@ -242,10 +240,10 @@ html, body{overflow: hidden;
 /*about-us-chef bios-kim*/
 .pic10, .pic10 img{width: 100%;}
 .pic10 .pic10-txt10{width: 96%;
-                    height: 15rem;
-                    margin: 1rem auto;
+                    height: 6.41rem;
+                    margin: 0.427rem auto;
 }
 .pic10 .pic10-txt10 h3 ,p{font-family: '微软雅黑';}
 .pic10 .pic10-txt10 p{color: #000;
-                      line-height: 1rem;
+                      line-height: 0.427rem;
 }
