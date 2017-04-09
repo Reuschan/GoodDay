@@ -10,14 +10,14 @@
 @media screen and (min-width: 360px) {
    
     .menu1 ul li{float: left;
-                 padding: 1% 4.4%;}
+                 padding: 1% 4.2%;}
                 
 }
  
 @media screen and (min-width: 400px) {
     
     .menu1 ul li{float: left;
-                 padding: 1% 4.9%;}
+                 padding: 1% 4.8%;}
     
              
 }
@@ -57,7 +57,7 @@ html, body{overflow: hidden;
 }
 .head1 img{margin-left: 0.34rem;
            float: left;
-           margin-top: 1.8%;
+           margin-top: 0.9%;
 }
 .head1 h2{width:100%;
           font-size: 0.37rem;
