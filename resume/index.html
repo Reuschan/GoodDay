@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title>求职简历</title>
+    <script type="text/javascript">
+        "use strict";
+        (function () {
+            function remSize() {
+                let sw = document.documentElement.clientWidth;
+                document.documentElement.style.fontSize = Math.floor(sw / 4.14) + 'px';
+            }
+            window.onresize = remSize;
+            window.onload = remSize;
+            window.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", function () {
+                let sw = document.documentElement.clientWidth;
+                var angle = window.screen.orientation.angle || window.orientation;
+                if (sw < 769 && (angle === 90 || angle === -90)) {
+                    alert("竖屏浏览体验更佳，亦可使用PC");
+                }
+            });
+        })();
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="container">
+            <div class="column page1 on">
+                <img class="bg1" src="img/page1.jpg">
+                <div class="mouse-tips down iconfont icon-down"></div>
+                <div class="bg-black">
+                    <div class="title tit1">
+                        <h2>Hello all over the world</h2>
+                        <p>陈哲航 个人简历</p>
+                        <p>前端工程师</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column page2">
+                <h2 class="title tit2">项目和作品</h2>
+                <div class="content">
+                    <div class="project pro1">
+                        <div class="pro-img">
+                            <div class="iconfont icon-oGDwRZJ01"></div>
+                        </div>
+                        <div class="pro-txt">
+                            <h3>阡寻科技官网</h3>
+                            <p>一个科技公司的官网，向用户展示一些基本的信息。该项目主要使用CSS3新特性完成过渡和动画效果。
+                              使用fullpage.js全屏滚动插件完成页面效果。
+                              使用bootstrap实现响应式布局。</p>
+                        </div>
+                        <div class="pro-btn">
+                            <a class="pro-link" href="http://www.chancein.cn" target="_blank">address</a> 
+                        </div>
+                    </div>
+                    <div class="project pro2">
+                        <div class="pro-img">
+                            <div class="iconfont icon-jquery-copy"></div>
+                        </div>
+                        <div class="pro-txt">
+                            <h3>游戏专题页面</h3>
+                            <p>仿写的一个游戏专题页面,用了fullpage全屏滚动，css3动画，视频弹出层，弹幕等，并且有PC端和移动端。PC端：jQuery、scss、html5、CSS3。移动端：zepto、rem布局、zepto.fullpage插件</p>
+                        </div>
+                        <div class="pro-btn">
+                            <a class="pro-link" href="https://reuschan.github.io/GoodDay/magicalWorld" target="_blank">address</a>
+                        </div>
+                    </div>
+                    <div class="project pro3">
+                        <div class="pro-img">
+                            <div class="iconfont icon-react"></div>
+                        </div>
+                        <div class="pro-txt">
+                            <h3>音乐播放器</h3>
+                            <p>用vue.js写的一个简易的音乐播放器，vue.js的双向数据绑定让开发过程中省了很多麻烦,特别要注意watch和钩子函数mounted。运用了ES6的新语法以及html5的 localStorage和CSS3的动画。</p>
+                        </div>
+                        <div class="pro-btn">
+                            <a class="pro-link" href="https://reuschan.github.io/GoodDay/vue_test/docs" target="_blank">address</a>
+                        </div>
+                    </div>
+                    <div class="project pro4">
+                        <div class="pro-img">
+                            <div class="iconfont icon-css"></div>
+                        </div>
+                        <div class="pro-txt">
+                            <h3>Canvas时钟</h3>
+                            <p>为了熟悉html5的新特性Canvas，用它画了一个时钟。</p>
+                        </div>
+                        <div class="pro-btn">
+                            <a class="pro-link" href="https://reuschan.github.io/GoodDay/CanvasClock/CanvasClock.html" target="_blank">address</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column page3">
+                <h2 class="title tit3">前端技能</h2>
+                <div class="content">
+                    <div class="skill skill1">
+                        <div class="front">
+                            <h5 class="skill-title">熟练掌握</h5>
+                            <p><span class="skill-point">HTML(5)</span></p>
+                            <p><span class="skill-point">CSS(3)</span></p>
+                            <p><span class="skill-point">photoShop</span></p>
+                        </div>
+                        <div class="backface">
+                            能熟练使用photoshop完成基本的图像处理，用html和css还原设计稿。各种居中、浮动、定位都调教过，熟悉移动端多尺寸适配以及响应式布局，能运用scss预处理css。
+                        </div>
+                    </div>
+                    <div class="skill skill2">
+                        <div class="front">
+                            <h5 class="skill-title">基本掌握</h5>
+                            <p><span class="skill-point">JavaScript</span></p>
+                            <p><span class="skill-point">jQuery</span></p>
+                            <p><span class="skill-point">Zepto</span></p>
+                            <p><span class="skill-point">Bootstrap</span></p>
+                            <p><span class="skill-point">Es6</span></p>
+                        </div>
+                        <div class="backface">
+                            熟悉原生js、jquery、zepto等框架及相关插件，常见的动画、交互基本能实现。拥有了良好的代码书写规范，注释清晰，简洁易读，对mvc、mvvm框架，commomjs规范，模块化，以及es6有一定的了解。
+                        </div>
+                    </div>
+                    <div class="skill skill3">
+                        <div class="front">
+                            <h5 class="skill-title">基本运用</h5>
+                            <p><span class="skill-point">Vue.js</span></p>
+                            <p><span class="skill-point">Webpack</span></p>
+                            <p><span class="skill-point">Npm</span></p>
+                        </div>
+                        <div class="backface">
+                            正在学习vue，能够基本运用，使用vue写了一些demo，学会了使用webpack作为构建工具，eslint规范格式，npm进行包管理。
+                        </div>
+                    </div>
+                    <div class="skill skill4">
+                        <div class="front">
+                            <h5 class="skill-title">开发工具</h5>
+                            <p><span class="skill-point">Sublime Text</span></p>
+                            <p><span class="skill-point">Koala</span></p>
+                            <p><span class="skill-point">Chrome</span></p>
+                            <p><span class="skill-point">Git</span></p>
+                        </div>
+                        <div class="backface">
+                            常用的编辑器是Sublime Text,能熟练运用Chrome调整css、调试debug,koala用来编译scss，压缩js,使用git命令配合github等代码库进行版本控制。
+                        </div>
+                    </div>
+                    <div class="skill skill5">
+                        <div class="front">
+                            <h5 class="skill-title">常用插件</h5>
+                            <p><span class="skill-point">Swiper</span></p>
+                            <p><span class="skill-point">Animate.css</span></p>
+                            <p><span class="skill-point">Echarts</span></p>
+                            <p><span class="skill-point">fullpage</span></p>
+                        </div>
+                        <div class="backface">
+                            在这个开源形势一片大好的时代，大神的轮子自然用过不少，列几个常用的差距。swiper：超顺滑的轮播及滑动。动画的贝塞尔曲线太难折腾了，还是用Animate.css吧。
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column page4">
+                <h2 class="title tit4">个人经历</h2>
+                <div class="content">
+                    <div class="history his1">
+                        <div class="year">EXP1</div>
+                        <dl class="intro">
+                            <dt class="company">东莞汉斯节能机电科技有限公司</dt>
+                            <dt>2012.7 - 2015.3</dt>
+                            <dt class="job">无损检测工程师</dt>
+                            <dd>毕业后的第一份工作</dd>
+                            <dd>负责公司产品的无损检测</dd>
+                            <dd>培养出了自己的耐心和细致</dd>
+                            <dd>一次偶然的事件让我有了转行的念头</dd>
+                        </dl>
+                    </div>
+                    <div class="history his2">
+                        <div class="year">EXP2</div>
+                        <dl class="intro">
+                            <dt class="company">家里蹲加到处跑公司</dt>
+                            <dt>2015.3 - 2015.8</dt>
+                            <dt class="job">一边自学一边兼职</dt>
+                            <dd>开始自学前端开发</dd>
+                            <dd>一路走来很多辛酸</dd>
+                            <dd>有过彷徨，有过失望</dd>
+                            <dd>最重要的是学会了坚持</dd>
+                            <dd>坚持下去就会得到自己想要的</dd>
+                        </dl>   
+                    </div>
+                    <div class="history his3 cur">
+                        <div class="year">EXP3</div>
+                        <dl class="intro">
+                            <dt class="company">长沙全速网络技术有限公司</dt>
+                            <dt>2015.8 - 2017.3</dt>
+                            <dt class="job">前端开发工程师</dt>
+                            <dd>与设计师合作，根据psd完成页面制作</dd>
+                            <dd>与后端人员配合，利用Ajax实现数据的交互</dd>
+                            <dd>维护及优化网站页面的前端性能</dd>
+                            <dd>使用javascript编写封装良好的前端交互组件</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="column page5">
+                <div class="content">
+                    <div class="end end1">追求代码的简洁易读</div>
+                    <div class="end end2">善于学习并解决问题</div>
+                    <div class="end end3">我可能不是最优秀的</div>
+                    <div class="end end4">但我可能是最合适的</div>
+                    <div class="end end5">快来联系我吧</div>
+                </div>
+                <div class="mouse-tips up iconfont icon-down"></div>
+                <div class="footer">Copyright©2017 &nbsp;&nbsp;&nbsp;All Rights Reserved &nbsp;&nbsp;&nbsp;Design by ReusChan
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--wrap end-->
+    <!--右侧导航按钮-->
+    <ul class="nav-right">
+        <!--标签换行会使图标居中失效-->
+        <li class="item iconfont icon-shouye on"><span>首页</span></li>
+        <li class="item iconfont icon-daima"><span>项目</span></li>
+        <li class="item iconfont icon-zhandou"><span>技能</span></li>
+        <li class="item iconfont icon-inauguration"><span>经历</span></li>
+        <li class="item iconfont icon-mianshi"><span>联系</span></li>
+        <li class="item info-tg2 iconfont icon-hire"><span>信息</span></li>
+    </ul>
+    <!--导航按钮 end-->
+    <!--左侧信息弹出层-->
+    <div class="info">
+        <div class="info-tg ">
+            <div class="info-arrow iconfont icon-qianjin"></div>
+        </div>
+        <div class="info-box">
+            <div href="" class="avatar"><img src="img/reus.jpg" alt="reus"></div>
+            <ul class="info-ul">
+                <li class="info-li">
+                    <h3>NAME</h3>
+                    <p>陈哲航</p>
+                </li>
+                <li class="info-li">
+                    <h3>PERSONAL</h3>
+                    <p>男 27岁</p>
+                </li>
+                <li class="info-li">
+                    <h3>JOB</h3>
+                    <p>前端开发工程师</p>
+                </li>
+                <li class="info-li">
+                    <h3>EDU</h3>
+                    <p>长沙民政学院</p>
+                </li>
+                <li class="info-li">
+                    <h3>CONTACT</h3>
+                    <p>18820329790</p>
+                    <p>1061764948@qq.com</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--信息层 end-->
+    <!--<script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>-->
+    <script src="http://cdn.bootcss.com/zepto/1.2.0/zepto.min.js"></script>
+    <!--<script src="F:\code\libs\zepto.min.js"></script>-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
