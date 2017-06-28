@@ -95,14 +95,19 @@ a{
   height:100%;
   background-color:#fff;
 }
-@media screen and (max-width: 321px) {
+@media screen and (min-width: 321px) and (max-width: 360px) {
   .content .right .shopList .shopLine{
-      margin-top:2.6%;
+      margin:5.8% 0 1.6% 0.4%!important;
     }
 }
-@media screen and (min-width: 321px) and (max-width: 361px) {
-  .content .right{
-      margin-bottom:0.01%;
+@media screen and (min-width: 361px) and (max-width: 375px) {
+  .content .right .shopList .shopLine{
+      margin:6.6% 0 1.6% 0.4%!important;
+    }
+}
+@media screen and (min-width: 376px) and (max-width: 414px) {
+  .content .right .shopList .shopLine{
+      margin:6.8% 0 3.2% 0.4%!important;
     }
 }
 .content .right .shopList{
@@ -115,7 +120,7 @@ a{
 }
 .content .right .shopList .shopLine{
   width:100%;
-  margin:6.6% 0 1.6% 0.4%;
+  margin:3.8% 0 1.6% 0.4%;
 }
 .content .right .shopList li{
   float:left;
