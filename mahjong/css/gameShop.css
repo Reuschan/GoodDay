@@ -11,6 +11,10 @@ html,body{
 ul li{
   list-style:none;
 }
+a{
+  text-decoration:none;
+  color:#000;
+}
 
 /*外层容器*/
 .container{
@@ -25,38 +29,6 @@ ul li{
 }
 
 
-/*头部信息*/
-.head{
-  position:relative;
-  width:100%;
-  height:1.12rem;
-  text-align:center;
-  background-color:rgba(102, 102, 102, 1); 
-}
-.head .close{
-  width:1.28rem;
-  height:1.12rem;
-  cursor:pointer;
-  text-align:center;
-  line-height:1.12rem; 
-}
-.head .close img{
-  width:0.4rem;
-  height:0.4rem;
-  vertical-align:middle;
-}
-.head .text{
-  position: absolute;
-  left:3.64rem;
-  top:0.28rem;
-  width:2.72rem;
-  height:0.586rem;
-  font-size:0.48rem;
-  color: #FFFFFF;
-  text-align: center;
-}
-
-
 /*轮播图*/
 .carousel{
   width:100%;
@@ -67,6 +39,10 @@ ul li{
 }
 .carousel .pic{
   width:400%;
+  height:100%;
+}
+.carousel .pic img{
+  width:100%;
   height:100%;
 }
 .carousel .list{
@@ -90,6 +66,8 @@ ul li{
 /*商品列表及详情*/
 .content{
   width:100%;
+  height:13.78rem;
+  background-color:gray;
 }
 /*左侧商品列表*/
 .content .left{
@@ -114,13 +92,12 @@ ul li{
 .content .right{
   float:right;
   width:73.4%;
+  height:100%;
   background-color:#fff;
-  margin-bottom:-8.6%;
-  overflow:scroll;
 }
 @media screen and (max-width: 321px) {
-  .content .right{
-      margin-bottom:0;
+  .content .right .shopList .shopLine{
+      margin-top:2.6%;
     }
 }
 @media screen and (min-width: 321px) and (max-width: 361px) {
@@ -130,6 +107,7 @@ ul li{
 }
 .content .right .shopList{
   width:100%;
+  height:100%;
   display:none; 
 }
 .content .right .show{
@@ -137,7 +115,7 @@ ul li{
 }
 .content .right .shopList .shopLine{
   width:100%;
-  margin:2.6% 0 1.6% 0.4%;
+  margin:6.6% 0 1.6% 0.4%;
 }
 .content .right .shopList li{
   float:left;

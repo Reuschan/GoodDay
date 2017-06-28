@@ -11,61 +11,16 @@ ul li{
   list-style:none;
 }
 
+
+/*外部容器*/
 .container{
   width:10rem;
   height:17.78rem;
   margin:0 auto;
   background-color:lightgray;
-  overflow:hidden;
 }
 
-
-.head{
-  position:relative;
-  width:100%;
-  height:1.12rem;
-  text-align:center;
-  background-color:rgba(102, 102, 102, 1); 
-}
-.head .back{
-  width:1.28rem;
-  height:1.12rem;
-  cursor:pointer;
-  text-align:center;
-  line-height:1.12rem; 
-}
-.head .back img{
-  width:0.37rem;
-  height:0.73rem;
-  vertical-align:middle;
-}
-.head .text{
-  position: absolute;
-  left:3.64rem;
-  top:0.18rem;
-  width:2.72rem;
-  height:0.586rem;
-  font-size:0.48rem;
-  color: #FFFFFF;
-  text-align: center;
-}
-.head .point{
-	position:absolute;
-	top:0.18rem;
-	right:0.4rem;
-}
-@media screen and (max-width: 376px) {
-	.head .point{
-	    margin-top:-0.008rem;
-    }
-}
-.head .point a{
-	display:block;
-	width:0.2rem;
-	height:0.2rem;
-}
-
-
+/*充值成功的商品列表*/
 .shopList{
 	width:100%;
 	height:10%;
