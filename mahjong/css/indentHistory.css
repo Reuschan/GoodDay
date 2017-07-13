@@ -30,6 +30,7 @@ a{
 	border-bottom:1px solid gray;
 	padding:0.2rem;
 	position:relative;
+  overflow-x:hidden;
 }
 .shopList img{
 	width:2.13rem;
