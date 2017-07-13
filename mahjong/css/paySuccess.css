@@ -10,7 +10,10 @@ body{
 ul li{
   list-style:none;
 }
-
+a{
+  text-decoration:none;
+  color:#fff;
+}
 /*外部容器*/
 .container{
   width:10rem;

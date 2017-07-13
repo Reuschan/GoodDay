@@ -10,7 +10,10 @@ body{
 ul li{
   list-style:none;
 }
-
+a{
+  text-decoration:none;
+  color:#fff;
+}
 
 /*外部容器*/
 .container{
@@ -28,11 +31,9 @@ ul li{
 	padding:0.2rem;
 	position:relative;
 }
-.shopList a{
-	display:block;
+.shopList img{
 	width:2.13rem;
 	height:1.6rem;
-	background-color:#000;
 }
 .shopList .message{
 	width:3.6rem;

@@ -13,7 +13,6 @@
     <link href="css/gameShop.css" rel="stylesheet">
     <link href="css/swiper-3.4.2.min.css" rel="stylesheet">
     <script src="js/flexible.js"></script>
-    <script src="js/tabChange.js"></script>
   </head>
   
 <body>
@@ -22,10 +21,10 @@
     <!-- 轮播图开始 -->
     <div class="carousel swiper-container">
       <ul class="pic swiper-wrapper">
-        <li class="swiper-slide"><a href="#"><img src="images/7.jpg" alt="pic1"></a></li>
-        <li class="swiper-slide"><a href="#"><img src="images/8.jpg" alt="pic2"></a></li>
-        <li class="swiper-slide"><a href="#"><img src="images/9.jpg" alt="pic3"></a></li>
-        <li class="swiper-slide"><a href="#"><img src="images/7.jpg" alt="pic4"></a></li>
+        <li class="swiper-slide"><a href="advertisement.html"><img src="images/7.jpg" alt="pic1"></a></li>
+        <li class="swiper-slide"><a href="advertisement.html"><img src="images/8.jpg" alt="pic2"></a></li>
+        <li class="swiper-slide"><a href="advertisement.html"><img src="images/9.jpg" alt="pic3"></a></li>
+        <li class="swiper-slide"><a href="advertisement.html"><img src="images/7.jpg" alt="pic4"></a></li>
       </ul>
 
       <ul class="list swiper-pagination">
@@ -689,6 +688,38 @@
       pagination: '.swiper-pagination', 
       });
   });
+  
+  /*taba切换*/
+  $(function(){
+    $(".list li").click(function(){
+      //给当前选中的选项卡增加class，同时移除跟当前选项卡同级的其他选项卡的class
+      $(this).addClass("active").siblings().removeClass();
+      //隐藏其他内容区块，只显示与当前选项卡对应的内容区块
+      $(".right>ul").hide().eq($(".list li").index(this)).show();
+    });
+  });
+
+
+  /*面试题*/
+  var arr=[1,2,3];
+  var obj={};
+
+  var test=function(){
+    for(var i=0; i<arr.length; i++){
+      (function(i){
+        obj[i]=function(){
+          console.log(i);
+        };
+      })(i);
+    } 
+  };
+  test();
+  
+  var fn0=obj[0];
+  var fn1=obj[1];
+  var fn2=obj[2];
+  
+  fn0(); fn1(); fn2();
 </script>
 
 
