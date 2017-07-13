@@ -148,20 +148,26 @@ a{
   height:1.22rem;
   max-width:10rem;
   margin:0 auto;
+  display:inline-block;
+  display:-moz-box;
+  -moz-box-orient:horizontal;
+  display:-webkit-box;
+  -webkit-box-orient:horizontal;
+  display:box;
+  box-orient:horizontal;
 }
-.footer li{
-  float:left;
-  width:33%;
+.footer .nav_li{
   height:1.22rem;
   line-height:1.22rem;
-  font-size:0.5rem;
+  font-size:16px;
+  -webkit-box-flex: 1.0;
+  -moz-box-flex:1.0;
+  box-flex:1.0;
   text-align:center;
   background-color:gray;
   cursor:pointer;
 }
-.footer li:nth-child(2){
+.footer .nav_li:nth-child(2){
   border-left:1px solid #333;
-}
-.footer li:nth-child(3){
-  border-left:1px solid #333;
+  border-right:1px solid #333;
 }
